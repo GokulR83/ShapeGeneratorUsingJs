@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.main{
+    width: 100%;
+    heigth: 700px;
+    background-image: url(./img/shapes.jpg);
+    /* opacity: 0.6; */
+
+}
+.container{
+    width: 100%;
+    heigth:700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background: linear-gradient(to right,#ffd516,#afab88);
+    gap: 10px;
+    opacity: 0.9;
+}
+#start {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+#startBox {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding:0.5rem 1rem;
+}
+#start:hover {
+    background:#ffa600;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: ease-out 0.3s;
+}
+.gwen{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: center; */
+}
